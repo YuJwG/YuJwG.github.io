@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+}
+
+p, li {
+    color: #777;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    content: "\2022"; /* Bullet point */
+    color: #555;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+}
